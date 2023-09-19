@@ -236,13 +236,7 @@
                         <i>Varsha Dani, Abir Islam, Jared Saia</i>
                         <p>We address the problem of designing a distributed algorithm for two robots that sketches the
                             boundary of an unknown shape. Critically, we assume a certain amount of delay in how quickly
-                            our robots can react to external feedback. In particular, when a robot moves, it commits to
-                            move along path of length at least λ, or turn an amount of radians at least λ for some
-                            positive λ≤1/2^6, that is normalized based on a unit diameter shape. Then, our algorithm
-                            outputs a polygon that is an ϵ-sketch, for ϵ=8√λ, in the sense that every point on the
-                            shape boundary is within distance ϵ of the output polygon. Moreover, our costs are
-                            asymptotically optimal in two key criteria for the robots: total distance travelled and total amount of rotation.</p>
-                        <p>Additionally, we implement our algorithm, and illustrate its output on some specific shapes.</p>
+                            our robots can react to external feedback...</p>
 
                         <h3><a href="https://link.springer.com/chapter/10.1007/978-3-031-32733-9_16">Aerial Survey Robotics in Extreme Environments: Mapping Volcanic CO2 Emissions With Flocking UAVs</a></h3>
                         <i>John Ericksen, Matthew G. Fricke, Scott Nowicki, Tobias P. Fischer, Julie C. Hayes, Karissa Rosenberger, Samantha R. Wolf, Rafael Fierro, and Melanie E. Moses</i>
@@ -250,60 +244,70 @@
                             aerial robots. CO2 is a useful predictor of volcanic eruptions and an influential greenhouse
                             gas. However, current CO2 mapping methods are hazardous and inefficient, as a result, only a
                             small fraction of CO2 emitting volcanoes have been surveyed. We develop algorithms and a
-                            platform to measure volcanic CO2 emissions. The Dragonfly Unpiloted Aerial Vehicle (UAV)
-                            platform is capable of long-duration CO2 collection flights in harsh environments. We
-                            implement two survey algorithms on teams of Dragonfly robots and demonstrate that they
-                            effectively map gas emissions and locate the highest gas concentrations. Our experiments
-                            culminate in a successful field test of collaborative rasterization and gradient descent
-                            algorithms in a challenging real-world environment at the edge of the Valles Caldera
-                            supervolcano. Both algorithms treat multiple flocking UAVs as a distributed flexible instrument.
-                            Simultaneous sensing in multiple UAVs gives scientists greater confidence in estimates of
-                            gas concentrations and the locations of sources of those emissions. These methods are also
-                            applicable to a range of other airborne concentration mapping tasks, such as pipeline leak
-                            detection and contaminant localization.</p>
+                            platform to measure volcanic CO2 emissions...</p>
 
                         <h3>Drone CO2 Measurements During the Tajogaite Volcanic Eruption</h3>
                         <p>Under review at Science Advances.</p>
                         <i>John Ericksen, Tobias Fischer, Scott Nowicki, Nemesio Pérez, Pedro Hernandez, Eleazar Padrón, Melanie Moses, G. Matthew Fricke</i>
                         <p>We report in-plume CO2 concentrations and isotope ratios during an active eruption of 
                             the Tajogaite Volcano. CO2 measurements inform our understanding of volcanic contributions 
-                            to the global climate carbon cycle, and the role of CO2 in eruptions. Traditional 
-                            ground-based methods of CO2 collection are difficult and dangerous, as a result only 
-                            5\% of volcanoes have been surveyed. We demonstrate that UAS surveys allow for fast and
-                            relatively safe measurements. Using CO2 concentration profiles we estimate total flux 
-                            to be 8.62 x 10^5 - 2.62 x 10^7 t/day. Isotope ratios indicated a deep
-                            magmatic source, consistent with the intensity of the eruption. Our work demonstrates the 
-                            feasibility of UAS for CO2 surveys during active volcanic eruptions, particularly in calculating plume characteristics.</p>
+                            to the global climate carbon cycle, and the role of CO2 in eruptions...</p>
 
 
                         <h3><a href="https://arxiv.org/abs/2009.00156">LOCUS: A multi-robot loss-tolerant algorithm for surveying volcanic plumes</a></h3>
                         <i>John Ericksen, Abhinav Aggarwal, G. Matthew Fricke, Melanie E. Moses</i>
-                        <p>Measurement of volcanic CO2 flux by a drone swarm poses special challenges. Drones must be able to follow gas concentration gradients while tolerating frequent drone loss. We present the LoCUS algorithm as a solution to this problem and prove its robustness. LoCUS relies on swarm coordination and self-healing to solve the task...</p>
+                        <p>Measurement of volcanic CO2 flux by a drone swarm poses special challenges. Drones must be
+                            able to follow gas concentration gradients while tolerating frequent drone loss. We present
+                            the LoCUS algorithm as a solution to this problem and prove its robustness. LoCUS relies on
+                            swarm coordination and self-healing to solve the task...</p>
 
                         <h3><a href="https://ieeexplore.ieee.org/abstract/document/9571068">Adaptive Control for Cooperative Aerial Transportation Using Catenary Robots</a></h3>
                         <i>Cardona, Gustavo A. and D'Antonio, Diego S. and Fierro, Rafael and Saldana, David</i>
-                        <p>We present a method for cooperative transportation using two catenary robots. Each catenary robot is composed of two quadrotors connected by a hanging cable. Unlike other methods in the literature for aerial transportation using cables, we do not assume that the cables are attached to the object. Instead, the quadrotors wrap cables around the object and pull. Since the cable is not attached to the object, the quadrotors need to avoid slipping by maintaining friction between the cable and the object. In this work, we focus on manipulating objects with cuboid shapes or boxes. We use two catenary robots to pull the box from two opposite edges. Once the robots are in contact with the box, they do not know the contact points between the cable and the object. We propose an adaptive controller to track a reference trajectory without information about the box's contact points, mass, and inertia tensor. We validate our approach through simulations.</p>
+                        <p>We present a method for cooperative transportation using two catenary robots. Each catenary
+                            robot is composed of two quadrotors connected by a hanging cable. Unlike other methods in the
+                            literature for aerial transportation using cables, we do not assume that the cables are attached to the object.
+                            Instead, the quadrotors wrap cables around the object and pull...</p>
 
 
                         <h3><a href="https://www.sciencedirect.com/science/article/pii/S0377042721000704">Machine learning feature analysis illuminates disparity between E3SM climate models and observed climate change</a></h3>
                         <i>Nichol, J. Jake and Peterson, Matthew G. and Peterson, Kara J. and Fricke, G. Matthew and Moses, Melanie E.</i>
-                        <p>In September of 2020, Arctic sea ice extent was the second-lowest on record. State of the art climate prediction uses Earth system models (ESMs), driven by systems of differential equations representing the laws of physics. Previously, these models have tended to underestimate Arctic sea ice loss. The issue is grave because accurate modeling is critical for economic, ecological, and geopolitical planning. We use machine learning techniques, including random forest regression and Gini importance, to show that the Energy Exascale Earth System Model (E3SM) relies too heavily on just one of the ten chosen climatological quantities to predict September sea ice averages. Furthermore, E3SM gives too much importance to six of those quantities when compared to observed data. Identifying the features that climate models incorrectly rely on should allow climatologists to improve prediction accuracy.</p>
+                        <p>We use machine learning techniques, including random
+                            forest regression and Gini importance, to show that the Energy Exascale Earth System Model (E3SM)
+                            relies too heavily on just one of the ten chosen climatological quantities to predict September
+                            sea ice averages. Furthermore, E3SM gives too much importance to six of those quantities when
+                            compared to observed data. Identifying the features that climate models incorrectly rely on
+                            should allow climatologists to improve prediction accuracy.</p>
 
                         <h3><a href="https://advances.sciencemag.org/content/6/44/eabb9103">Aerial strategies advance volcanic gas measurements at inaccessible, strongly degassing volcanoes</a></h3>
                         <i>E. J. Liu1, A. Aiuppa, A. Alan, et.al.</i>
-                        <p>Volcanic emissions are a critical pathway in Earth’s carbon cycle. Here, we show that aerial measurements of volcanic gases using unoccupied aerial systems (UAS) transform our ability to measure and monitor plumes remotely and to constrain global volatile fluxes from volcanoes...</p>
+                        <p>Volcanic emissions are a critical pathway in Earth’s carbon cycle. Here, we show that aerial
+                            measurements of volcanic gases using unoccupied aerial systems (UAS) transform our ability to
+                            measure and monitor plumes remotely and to constrain global volatile fluxes from volcanoes...</p>
 
                         <h3><a href="https://journals.sagepub.com/doi/full/10.1177/1475921720977017">Enabling human–infrastructure interfaces for inspection using augmented reality</a></h3>
                         <i>Maharjan, D and Agüero, M and Mascarenas, D and Fierro, R and Moreu, F.</i>
-                        <p>Decaying infrastructure maintenance cost allocation depends heavily on accurate and safe inspection in the field. New tools to conduct inspections can assist in prioritizing investments in maintenance and repairs. The industrial revolution termed as “Industry 4.0” is based on the intelligence of machines working with humans in a collaborative workspace. Contrarily, infrastructure management has relied on the human for making day-to-day decisions. New emerging technologies can assist during infrastructure inspections, to quantify structural condition with more objective data. However, today’s owners agree in trusting the inspector’s decision in the field over data collected with sensors. If data collected in the field is accessible during the inspections, the inspector decisions can be improved with sensors. New research opportunities in the human–infrastructure interface would allow researchers to improve the human awareness of their surrounding environment during inspections. This article studies the role of Augmented Reality (AR) technology as a tool to increase human awareness of infrastructure in their inspection work. The domains of interest of this research include both infrastructure inspections (emphasis on the collection of data of structures to inform management decisions) and emergency management (focus on the data collection of the environment to inform human actions). This article describes the use of a head-mounted device to access real-time data and information during their field inspection. The authors leverage the use of low-cost smart sensors and QR code scanners integrated with Augmented Reality applications for augmented human interface with the physical environment. This article presents a novel interface architecture for developing Augmented Reality–enabled inspection to assist the inspector’s workflow in conducting infrastructure inspection works with two new applications and summarizes the results from various experiments. The main contributions of this work to computer-aided community are enabling inspectors to visualize data files from database and real-time data access using an Augmented Reality environment.</p>
+                        <p>This article studies the role of Augmented Reality (AR) technology as a tool to increase human
+                            awareness of infrastructure in their inspection work. The domains of interest of this research
+                            include both infrastructure inspections (emphasis on the collection of data of structures to
+                            inform management decisions) and emergency management (focus on the data collection of the
+                            environment to inform human actions)...</p>
 
                         <h3><a href="https://ieeexplore.ieee.org/abstract/document/10018733">Multi-Robot system for autonomous cooperative counter-UAS missions: Design, integration, and field testing</a></h3>
                         <i>A. Barisic, M. Ball, N. Jackson, R. McCarthy, N. Naimi, L. Strassle, J. Becker, M. Brunner, J. Fricke, L. Markovic, I. Seslar, D. Novick, J. Salton, R. Siegwart, S. Bogdan, and R. Fierro</i>
-                        <p>With the rapid development of technology and the proliferation of uncrewed aerial systems (UAS), there is an immediate need for security solutions. Toward this end, we propose the use of a multi-robot system for autonomous and cooperative counter-UAS missions. In this paper, we present the design of the hardware and software components of different complementary robotic platforms: a mobile uncrewed ground vehicle (UGV) equipped with a LiDAR sensor, an uncrewed aerial vehicle (UAV) with a gimbal-mounted stereo camera for air-to-air inspections, and a UAV with a capture mechanism equipped with radars and camera. Our proposed system features 1) scalability to larger areas due to the distributed approach and online processing, 2) long-term cooperative missions, and 3) complementary multimodal perception for the detection of multirotor UAVs. In field experiments, we demonstrate the integration of all subsystems in accomplishing a counter-UAS task within an unstructured environment. The obtained results confirm the promising direction of using multi-robot and multi-modal systems for C-UAS.</p>
+                        <p>With the rapid development of technology and the proliferation of uncrewed aerial systems (UAS),
+                            there is an immediate need for security solutions. Toward this end, we propose the use of a
+                            multi-robot system for autonomous and cooperative counter-UAS missions. In this paper, we present
+                            the design of the hardware and software components of different complementary robotic
+                            platforms: a mobile uncrewed ground vehicle (UGV) equipped with a LiDAR sensor, an uncrewed aerial vehicle (UAV)
+                            with a gimbal-mounted stereo camera for air-to-air inspections, and a UAV with a capture mechanism equipped with radars and camera...</p>
 
                         <h3><a href="https://ieeexplore.ieee.org/abstract/document/10025390">Robust Linear-Velocity-Free Formation Tracking of Multiple Quadrotors with Unknown Disturbances</a></h3>
                         <i>J. Lin, Y. Wang, Z. Miao, Q. Lin, G. Hu, and R. Fierro</i>
-                        <p>This article addresses the problem of quadrotor formation control with inaccessible linear velocity and the unknown disturbances under directed interaction topologies. Considering the unknown disturbances act in both the translational and rotational motions of each underactuated quadrotor, a hierarchical distributed disturbance rejection controller is developed for the quadrotor formation. In the outer loop, an observerbased translational controller is designed to achieve the desired formation over directed interaction topologies. To estimate the inaccessible linear velocity measurements, a uniform differentiator is designed for each quadrotor using only the position information. In the inner loop, a robust geometric attitude controller is developed based on a super-twisting algorithm (STA). The proposed controllers can reach disturbance rejections in the whole frequency domain as much as desired and achieve asymptotic formation tracking within the appointed time. The stability analysis is presented using Lyapunov stability theory on cascaded systems, and the effectiveness of the proposed control strategy is demonstrated through numerical simulations.</p>
+                        <p>This article addresses the problem of quadrotor formation control with inaccessible linear
+                            velocity and the unknown disturbances under directed interaction topologies. Considering the
+                            unknown disturbances act in both the translational and rotational motions of each underactuated
+                            quadrotor, a hierarchical distributed disturbance rejection controller is developed for the
+                            quadrotor formation...</p>
 
                     </div>
                 </div>
