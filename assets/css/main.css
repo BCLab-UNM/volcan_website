@@ -4315,3 +4315,21 @@ p.mla-ref {
 	margin-top: -1.5rem;
 	font-size: 12px;
 }
+
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.column2 {
+	float: right;
+	width: 45%;
+	padding: 5px;
+}
+
+.column3 {
+	float: right;
+	width: 33.33%;
+	padding: 5px;
+}
